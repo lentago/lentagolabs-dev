@@ -77,8 +77,8 @@ export function Footer() {
     <footer style={{ background: "var(--color-bg)", borderTop: "1px solid var(--color-border)", padding: "40px" }}>
       <div style={{ maxWidth: 1280, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 20 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <BrandMark size={22} />
-          <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 15, color: "var(--fg1)" }}>Lentago Labs</span>
+          <BrandMark size={48} />
+          <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 34, color: "var(--fg1)", letterSpacing: "-0.02em" }}>Lentago Labs</span>
           <span style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--fg3)", marginLeft: 12, letterSpacing: "0.05em" }}>v2026.04.18</span>
         </div>
         <div style={{ fontFamily: "var(--font-mono)", fontSize: 12, color: "var(--fg3)" }}>
